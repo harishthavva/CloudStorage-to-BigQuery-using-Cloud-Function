@@ -1,5 +1,5 @@
 provider "google" {
-    credentials = "./seviceAccount.json"
+    credentials = "Enter your Service account Path"
     project     = "secure-racer-303703"
     region      = "us-central1"
     zone        = "us-central1-c"
