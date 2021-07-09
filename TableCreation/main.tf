@@ -1,5 +1,5 @@
 provider "google" {
-    credentials = "./secondService.json"
+    credentials = "Enter your Service account path"
     project     = "causal-smoke-318006"
 }
 
