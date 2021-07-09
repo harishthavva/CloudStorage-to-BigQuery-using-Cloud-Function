@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_bigquery_dataset" "DataSet" {
-  dataset_id                  = "Enter your Dataset Name"
+  dataset_id                  = "Dataset1"
   location                    = "US"
 }
 

@@ -7,6 +7,6 @@ provider "google" {
 
 resource "google_storage_bucket" "Bucket" {
     # Add your Bucket Name
-     name          = "harish45678932" 
+     name          = "harish45678423" 
      location      = "US"
 }
