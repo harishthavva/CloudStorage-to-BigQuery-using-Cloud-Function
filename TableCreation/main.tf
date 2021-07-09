@@ -4,12 +4,12 @@ provider "google" {
 }
 
 resource "google_bigquery_dataset" "DataSet" {
-  dataset_id                  = "Dataset1"
+  dataset_id                  = "Dataset Name"
   location                    = "US"
 }
 
 resource "google_bigquery_table" "Table" {
   dataset_id = google_bigquery_dataset.DataSet.dataset_id
-  table_id   = "Table1"
+  table_id   = "Table Name"
   deletion_protection = false
 }

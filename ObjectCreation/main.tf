@@ -7,7 +7,7 @@ provider "google" {
 
 resource "google_storage_bucket_object" "Object" {
     # Add your Bucket_Name
-    name   = "object1"
-    source = "../Data/customer1.csv"
-    bucket = "harish45678423"
+    name   = "object Nmae"
+    source = "Object File Path"
+    bucket = "Enter Bucket Name"
 }

@@ -7,6 +7,7 @@ provider "google" {
 
 resource "google_storage_bucket" "Bucket" {
     # Add your Bucket Name
-     name          = "harish45678423" 
+     name          = "Enter your Name" 
      location      = "US"
+     force_destroy = true
 }
